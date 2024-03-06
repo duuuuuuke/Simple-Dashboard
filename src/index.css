@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .sidebar-links {
+        @apply hover:bg-soft-bg pl-6 py-4 ease-in-out duration-300 mb-4 cursor-pointer;
+    }
+    .widget {
+        @apply rounded-lg bg-gradient-to-br from-main-color/10 to-main-color/0 backdrop-blur-md border-2 border-main-color/5 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] p-4;
+    }
+    .icon-hover {
+        @apply hover:bg-main-bg hover:rounded-full focus:bg-main-bg focus:rounded-full ease-in-out duration-300;
+    }
+    .add-btn {
+        @apply bg-soft-color font-bold text-main-bg py-2 px-4 rounded-md hover:bg-main-bg hover:text-soft-color ease-in-out duration-300 cursor-pointer;
+    }
+    .small-btn {
+        @apply bg-soft-color text-main-bg py-1 px-2 rounded-sm hover:bg-main-bg hover:text-soft-color ease-in-out duration-300 cursor-pointer;
+    }
+    .home-grid {
+        @apply grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 gap-4;
+    }
+    .filter-btn {
+        @apply bg-soft-color p-1 text-xs text-main-bg rounded-sm hover:bg-main-bg hover:text-soft-color ease-in-out duration-300 cursor-pointer md:text-base md:px-2 md:rounded-md;
+    }
+    .selected {
+        @apply bg-main-bg text-soft-color;
+    }
+}
