@@ -2,7 +2,7 @@
 
 A responsive dashboard that includes a weather widget, task widget, news widget, and a simple task manager.
 
-Demo URL: ()
+Demo URL: (https://simple-dashboard-nu.vercel.app/)
 
 ## Steps to run locally
 
